@@ -28,4 +28,6 @@ number2=gets
 number2=number2.chomp
 if number2.to_i > 0
 puts number1.to_i / number2.to_i
+else 
+puts "You can't divide by zero!"
 end
